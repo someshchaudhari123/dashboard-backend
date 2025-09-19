@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:3000") // allow your React frontend
+@CrossOrigin(origins = "https://tubular-paprenjak-8caefe.netlify.app/") // allow your React frontend
 public class AuthController {
 
     @Autowired
